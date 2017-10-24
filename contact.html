@@ -30,14 +30,20 @@
           <div class="panel-body">
             <h1>Contact</h1>
  
-            <form id="contact-form" method="post" action="mailto:brian.cocherell@gmail.com" enctype="text/plain">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" required="required"></textarea>
-              <input type="submit">
+            <form method="post" action="mailto:brian.cocherell@gmail.com" enctype="text/plain">
+              <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" class="form-control" id="inputName" name="Name" placeholder="John Smith" required="required">
+              </div>
+              <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" name="Email" placeholder="example@gmail.com" required="required">
+              </div>
+              <div class="form-group">
+                <label for="inputMessage">Message</label>
+                <textarea class="form-control" rows="6" id="inputMessage" name="Message" required="required"></textarea>
+              </div>
+              <button type="submit" class="btn btn-default btn-lg">Submit</button>
             </form>
 
           </div>

@@ -20,6 +20,10 @@ body {
   background: #4aaaa5;
 }
 
+.panel .panel-default {
+  padding: 20px;
+}
+
 .navbar-brand,
 .navbar-nav li a {
     line-height: 90px;
@@ -115,46 +119,59 @@ body {
   padding: 10px;
 }
 
-/* contact page */
-
-#contact-form ul {
-  margin-bottom: 20px;
-}
-
-#contact-form li {
-  margin-bottom: 10px;
-}
-
-label,
-input[type=text],
-input[type=email],
-textarea {
+label {
   display: block;
   width: 100%;
   font-weight: normal;
 }
 
-input[type=text],
-input[type=email],
-textarea {
-  height: 35px;
-  padding: 10px;
-  font-size: 14px;
-  border: 1px solid #ddd;
-  margin-bottom: 15px;
-}
-
-textarea {
-  height: 200px;
-}
-
-input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #fff;
-  cursor: pointer;
+.btn-default {
   background: #4aaaa5;
-  border: 0 none;
+  color: #fff;
 }
 
-input::placeholder { color: #a4a2a1; }
+.btn-default:hover {
+  background: #5e7f7e;
+  color: #fff;
+}
+
+.btn-default.focus, .btn-default:focus {
+    background-color: #4aaaa5;
+    color: #fff;
+}
+
+.btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
+   background-color: #4aaaa5;
+   color: #fff;
+  }
+
+.work {
+  position: relative;
+  overflow: auto; 
+}
+
+.work img:hover, .work a:hover {
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+.panel-body {
+    padding: 20px;
+}
