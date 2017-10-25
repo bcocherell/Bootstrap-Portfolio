@@ -16,6 +16,7 @@ body {
   font-weight: 700;
   color: #fff; 
   background: #4aaaa5;
+  transition:all 0.3s ease;
 } 
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
@@ -43,6 +44,7 @@ body {
 .social-image {
   width: 62px;
   height: 62px;
+  transition:all 0.3s ease;
 }
 
 .social:last-child {
@@ -52,6 +54,7 @@ body {
 .social-image:hover {
   cursor: pointer;
   opacity: 0.8;
+
 }
 
 h1,
@@ -120,6 +123,7 @@ label {
 .btn-default:hover {
   background: #5e7f7e;
   color: #fff;
+  transition:all 0.3s ease;
 }
 
 .btn-default.focus, .btn-default:focus {
@@ -140,12 +144,12 @@ label {
 
 .work:hover {
   opacity: 0.8;
+  transition:all 0.3s ease;
 }
 
 .work img {
   opacity: 0.8;
 }
-
 
 .work h3 {
   position: absolute;
